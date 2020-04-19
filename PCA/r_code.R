@@ -1,8 +1,8 @@
 
 
 library(DataExplorer)
-
-df_wine<-read.csv("D:\\ExcelR Data Science\\Assignment Mails\\santhosh\\PCA\\wine.csv")
+#Mention the Dataset path briefly.
+df_wine<-read.csv("Dataset.csv")
 
 df_wine <- data.frame(scale(df_wine))
 
