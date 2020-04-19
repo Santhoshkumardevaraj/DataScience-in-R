@@ -17,7 +17,7 @@ import scipy.cluster.hierarchy as shc
 
 
 try:
-    df_wine=pd.read_csv('wine.csv',encoding='latin-1')
+    df_wine=pd.read_csv('Dataset.csv',encoding='latin-1')
     df_wine.head()
     
     df_wine.describe()
